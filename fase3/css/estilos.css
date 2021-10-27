@@ -36,6 +36,8 @@ nav {
 
 header #texto-cabecera {
     display: grid;
+    color: white;
+    border: solid 3px;
     padding-top: 7px;
     grid-column: 1;
     grid-row: 1;
@@ -150,6 +152,18 @@ header #texto-cabecera {
 
 #articulo2 {
     margin-inline-start: 10px;
+}
+
+.principal>p {
+    display: grid;
+    grid-row: 2;
+    grid-column: 2;
+    margin-left: 20px;
+}
+
+.principal>img {
+    width: 605px;
+    height: 340px;
 }
 
 .redes {
