@@ -27,12 +27,19 @@ header {
     background: linear-gradient(to left, #519c2e59, #0a5e3e), url(../img/logo2.png);
 }
 
+
+/* menú de navegación */
+
 nav {
     margin-bottom: 0px;
     display: grid;
     grid-column: 1;
+    grid-row: 1;
     background: #FEFFDE;
 }
+
+
+/* Titulo cabecera */
 
 header #texto-cabecera {
     display: grid;
@@ -44,27 +51,20 @@ header #texto-cabecera {
     justify-content: space-around;
 }
 
-#menu {
-    grid-row: 1;
-}
+
+/* Lista de opciones del menú*/
 
 #menu ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
+
+
+/* Color de fondo al pasar el mouse por los elementos del menú*/
 
 #menu ul li:hover {
     background: #91C788;
-}
-
-
-/* menu */
-
-#menu ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
 }
 
 
@@ -93,7 +93,7 @@ header #texto-cabecera {
 }
 
 
-/* efecto al pasar el ratón por los items del menu */
+/* Color de fondo al pasar el mouse por los items del menu */
 
 #menu ul li:hover {
     background: #91C788;
@@ -136,6 +136,9 @@ header #texto-cabecera {
     display: block;
 }
 
+
+/* Sección principal */
+
 .principal {
     background: #DDFFBC;
     display: grid;
@@ -165,6 +168,14 @@ header #texto-cabecera {
     width: 605px;
     height: 340px;
 }
+
+.principal>#autor>img {
+    width: 400px;
+    height: 600px;
+}
+
+
+/* Sección Lateral */
 
 .redes {
     background: #91C788;
